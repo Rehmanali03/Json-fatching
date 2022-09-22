@@ -1,0 +1,51 @@
+[
+    {
+        "id" : "001",
+        "Name" : "Rehman",
+        "Father_Name" : "Liaquat",
+        "Course" : "Cpism"
+    },
+    {
+        "id" : "002",
+        "Name" : "Wajahat",
+        "Father_Name" : "Ali",
+        "Course" : "Cpism"
+    },
+    {
+        "id" : "003",
+        "Name" : "Aqeel",
+        "Father_Name" : "Ahmed",
+        "Course" : "Cpism"
+    },
+    {
+        "id" : "004",
+        "Name" : "Shavron",
+        "Father_Name" : "Samson",
+        "Course" : "Cpism"
+    },
+   {
+        "id" : "005",
+        "Name" : "Qirat",
+        "Father_Name" : "Baig",
+        "Course" : "Cpism"
+    },
+    {
+        "id" : "006",
+        "Name" : "Mohsin ",
+        "Father_Name" : "Sheikh",
+        "Course" : "Cpism"
+    },
+    {
+        "id" : "007",
+        "Name" : "Samia",
+        "Father_Name" : "Dawood",
+        "Course" : "Cpism"
+    },
+    {
+        "id" : "008",
+        "Name" : "Umme",
+        "Father_Name" : "Hani",
+        "Course" : "Cpism"
+    }  
+
+]

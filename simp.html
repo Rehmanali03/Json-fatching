@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sheet</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Course</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+
+<script>
+    fetch("index.json")
+    .then(res => res.json())
+    .then(data => {
+        const tbody = document.getElementById("tbody");
+        let html ='';
+        for(let student of data){
+            html +=
+            `
+            <tr>
+                <td>${student.id}</td>
+                <td>${student.Name}</td>
+                <td>${student.Father_Name}</td>
+                <td>${student.Course}</td>
+            </tr>  
+            `;
+        }
+        tbody.innerHTML = html;
+        
+    })
+</script>
+</body>
+</html>
